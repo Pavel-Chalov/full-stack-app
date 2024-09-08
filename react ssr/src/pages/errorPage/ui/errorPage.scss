@@ -1,0 +1,17 @@
+.error-page {
+    flex-direction: column;
+    padding: 0 20px;
+}
+
+.error-page__title {
+    color: var(--bg-brand);
+    font-size: 4em !important;
+    letter-spacing: 0.2em;
+    text-align: center;
+}
+
+.error-page__sub-title {
+    color: var(--font-color-primary);
+    margin-bottom: 0.3em;
+    text-align: center;
+}

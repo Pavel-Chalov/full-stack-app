@@ -1,0 +1,31 @@
+.auth-form {
+    & p {
+        color: var(--font-color-primary);
+        text-align: center;
+
+        & span {
+            color: var(--bg-brand);
+            cursor: pointer;
+            font-weight: 600;
+        }
+    }
+}
+
+.auth-form__title {
+    color: var(--font-color-primary);
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.auth-form__field {
+    margin-bottom: 25px;
+
+    &:last-of-type {
+        margin-bottom: 15px;
+    }
+}
+
+.auth-form__button {
+    width: 100%;
+    margin-bottom: 15px;
+}

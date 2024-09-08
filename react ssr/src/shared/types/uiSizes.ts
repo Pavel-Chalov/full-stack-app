@@ -1,0 +1,1 @@
+export type TypeUiSizes = "big" | "medium" | "small"

@@ -1,0 +1,12 @@
+port: "5050"
+
+db:
+    username: "postgres"
+    password: "root"
+    host: "localhost"
+    port: "5432"
+    dbname: "trello"
+    sslmode: "disable"
+
+access_token_secret: "Мусора_Бляди"
+refresh_token_secret: "Клал_На_Закон"

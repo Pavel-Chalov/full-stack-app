@@ -1,0 +1,35 @@
+.button {
+    display: block;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #fff;
+    background-color: var(--bg-brand);
+    padding: 0.25em 0.5em;
+    transition-duration: .3s;
+
+    &.big {
+        font-size: 1.5em
+    }
+
+    &.medium {
+        font-size: 1.25em;
+    }
+    &.small {
+        font-size: 1em;
+    }
+
+    &:hover {
+        background-color: #0056b3;
+    }
+
+    &:disabled {
+        cursor: default;
+        opacity: 0.7;
+
+        &:hover {
+            background-color: var(--bg-brand);
+        }
+    }
+}
